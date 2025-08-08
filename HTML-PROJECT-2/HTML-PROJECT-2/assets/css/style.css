@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Roboto", sans-serif; */
+
+* { margin: 0px; }
+
+body { background: url('../image/kabaddi.jpeg') no-repeat; background-size: cover; background-attachment: fixed; }
+body { background: url('../image/background.jpg') no-repeat; background-size: cover; background-attachment: fixed; }
+#wrapper {  width: 960px; background:#f5f3f3; margin: 0 auto; box-shadow:0px 0px 10px 0px #040404;  }
+.clear { height: 1px; clear: both; }
+#header { height: 92px; width: 760px; float: left; background: url('../image/boder.png') repeat-x; padding: 0px 100px 0px 100px;}
+#logo { width: 121px; height: 93px; float: left;   }
+#menu { width: 639px; height: 93px; float: left;    }
+#menu ul { float: right; }
+#menu ul li { list-style: none; float: left; margin-top: 30px; margin-left: 15px;}
+.active { border:1px solid #b5b3b3;  border-radius: 5px; box-shadow: 0px 0px 5px 1px #b5b3b3; }  
+#menu ul li:hover {  border:1px solid #b5b3b3;  border-radius: 5px; box-shadow: 0px 0px 5px 1px #b5b3b3; }                            
+#menu ul li a { color: #b5b3b3; text-decoration: none; font-family: "Roboto", sans-serif; font-size: 13px; padding: 5px 15px 5px 15px; float: left;}
+#banner { height: 231px; width: 960px; float: left; }      
+#shadow { height: 41px; width: 960px; float: left; background: url('../image/shadow2.png') repeat-x;}        
+#welcomecont {  width: 760px; float: left;  padding: 0px 100px 0px 100px;  }   
+#welcomecont h2 { font-family: "Roboto", sans-serif; color:#616161; font-size: 24px;
+ font-weight: 400; margin-bottom: 15px; }
+#welcomecont p { font-family: "Roboto", sans-serif; color: #9c9b9b; font-size: 13px;  margin-bottom: 15px; line-height: 19px; text-indent: 40px; }
+#catg{width: 760px; float: left;  padding: 0px 100px 0px 100px; }
+#catg .subcatg{width: 243px; float: left; margin-right: 10px;}
+#catg .subcatg h2{font-family: "Roboto", sans-serif; color:#616161; font-size: 24px;
+ font-weight: 400; margin-bottom: 15px;}
+#catg .subcatg h3{font-family: "Roboto", sans-serif; color:#616161; font-size: 16px;
+ font-weight: 400; margin-bottom: 15px;}
+#catg .subcatg p{font-family: "Roboto", sans-serif; color: #787878; font-size: 13px;  margin-bottom: 15px; line-height: 19px; font-style: italic;}
+#catg .subcatg h2 a {position: relative; bottom:7px;}
+#catg .subcatg ul{width: 243px; float: left; margin-right: 10px;}
+#catg .subcatg ul li{font-family: "Roboto",sans-serif;color: #616161;font-size: 12px;margin-bottom: 15px;line-height: 19px; font-style: italic;}
+#catg .subcatg ul li a{position: relative;bottom: 8px;}
+.tick li{list-style: url(../image/tick2.png);}
+.coin li{list-style: url(../image/saving-coin.png);}
+#footer { height: 42px; background: url('../image/boder.png') repeat-x; float: left; width: 960px; margin-top: 20px; }
+#footer p { font-family: "Roboto", sans-serif; color: #ffffff; font-size: 13px; text-align: center; margin-top: 10px; }
+
+.martop30 { margin-top: 30px; }
+.txtred { color: #ff0000; font-weight: bold; }												
+
+
+#catg2{width: 760px; float: left;  padding: 0px 100px 0px 100px; }
+#catg .subcatg2{width: 243px; float: left; margin-right: 10px;}
+#catg .subcatg2 h2{font-family: "Roboto", sans-serif; color:#616161; font-size: 24px;
+ font-weight: 400; margin-bottom: 15px;}
+#catg .subcatg2 h3{font-family: "Roboto", sans-serif; color:#616161; font-size: 19px;
+ font-weight: 400; margin-bottom: 15px;}
+#catg .subcatg2 p{width:670px; font-family: "Roboto", sans-serif; color: #787878; font-size: 15px;  margin-bottom: 15px; line-height: 19px; font-style: italic;}
+#catg .subcatg2 h2 a {position: relative; bottom:0px;}
+#catg .subcatg2 ul{width: 690px; float: left; margin-right: 10px;}
+#catg .subcatg2 ul li{font-family: "Roboto",sans-serif;color: #616161;font-size: 15px;margin-bottom: 15px;line-height: 19px; font-style: italic;}
+#catg .subcatg2 ul li a{position: relative;bottom: 0px;}
+#catg .subcatg2 p a{position: relative; bottom:7px;}
+
+\\contact
+* {box-sizing: border-box;margin: 0;}
+body {font-family: "Roboto", sans-serif; color:#616161; font-size: 24px;
+ font-weight: 400; margin-bottom: 15px;}
+#catg .subcatg3 {  max-width: 600px;margin: 50px auto;padding: 30px;background-color: #fff;border-radius: 10px;box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);}
+#catg .subcatg3 h2 {text-align: center;margin-bottom: 20px;color: #616161;}
+label {display: block;margin-bottom: 0px;font-weight: 600;color: #616161;}
+input[type="text"],
+input[type="email"],
+textarea {width: 602px;padding: 12px;margin-bottom: 20px;border: 1px solid #ccc;border-radius: 6px;font-size: 16px;}
+textarea {height: 120px;resize: vertical;}
+button {width: 100%;background-color: #007BFF;color: white;border: none;padding: 14px;border-radius: 6px;font-size: 16px;cursor: pointer;transition: background-color 0.3s ease;}
+button:hover { background-color: #0056b3;}
