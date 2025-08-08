@@ -1,0 +1,9 @@
+*{margin: 0 auto;}
+#wrapper{width: 1000px; height:1080px; margin: 0 auto;}
+#header{height: 152px;width: 1000px;background: #ff0000;float: left;}
+#container{height:1000px; width: 837px;float: left; background: #ffffff;}
+#leftnavi{height: 770px;width: 146px;float: left;background: #fff200;}
+#mid{height: 753px; width: 980px; padding:10px ; background:  #cccccc;}
+#banner{height: 357px; width:817px; float: left; margin: 10px 10px 10px 10px; background:#6dcff6;}
+.subbanner{height: 283px;width: 200px;float: left;background: #00ff00;margin: 19px;padding: 17px;}
+#footer{height:164px;width: 1000px;float left;background: black;}
